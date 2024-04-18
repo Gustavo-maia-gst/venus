@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZ88hz9elFYEVKHDKu+hygc4QyYyKEK/N1V7B0kf/SkkyLGgtiU3iKB3yDVVx+8aw+cfJkbbwDbd/+hQPR/qiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\Projects\\Testes\\CSharp\\Venus\\Venus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

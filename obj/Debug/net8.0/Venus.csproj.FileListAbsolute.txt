@@ -24,3 +24,4 @@ C:\Users\Pichau\Projects\Testes\CSharp\Venus\obj\Debug\net8.0\refint\Venus.dll
 C:\Users\Pichau\Projects\Testes\CSharp\Venus\obj\Debug\net8.0\Venus.pdb
 C:\Users\Pichau\Projects\Testes\CSharp\Venus\obj\Debug\net8.0\Venus.genruntimeconfig.cache
 C:\Users\Pichau\Projects\Testes\CSharp\Venus\obj\Debug\net8.0\ref\Venus.dll
+C:\Users\Pichau\Projects\Testes\CSharp\Venus\obj\Debug\net8.0\Venus.sourcelink.json

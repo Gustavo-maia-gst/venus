@@ -6,13 +6,13 @@ namespace Venus.Builder
     public class BuilderApplication
     {
         public readonly WebApplication App;
-        private readonly IResolver _resolver;
+        public readonly IResolver Resolver;
 
         private readonly WebApplicationBuilder _builder;
 
         public BuilderApplication(string[] args, Action<WebApplicationBuilder> config)
         {
-            _resolver = new Resolver();
+            Resolver = new Resolver();
 
             _builder = WebApplication.CreateBuilder(args);
             config(_builder);
@@ -21,12 +21,7 @@ namespace Venus.Builder
 
         public void UseDependencyInjection()
         {
-            _resolver.RegisterDefault();
-        }
-
-        public object GetInstance(Type type)
-        {
-            return _resolver.Resolve(type);
+            Resolver.RegisterDefault();
         }
     }
 }

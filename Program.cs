@@ -24,9 +24,10 @@ public class Program
         webBuilder.App.UseStaticFiles();
         webBuilder.App.UseRouting();
         webBuilder.App.UseAuthorization();
+
         webBuilder.UseDependencyInjection();
 
-        webBuilder.GetInstance(typeof(Dependent));
+        webBuilder.Resolver.Resolve(typeof(Dependent));
 
         webBuilder.App.Run();
     }

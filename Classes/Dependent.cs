@@ -1,4 +1,6 @@
-﻿namespace Venus.Classes
+﻿using Venus.DependencyResolver;
+
+namespace Venus.Classes
 {
     public class Dependent
     {
